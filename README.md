@@ -15,6 +15,7 @@ myebooklibrary.netlify.app
 ```
 HTML
 CSS
+```
 
 <h1 align="center">Hi 👋, I'm PaulaManese</h1>
 <h3 align="center">I'm a FULL-STACK DEVELOPER STUDENT at KODEGO.</h3>
