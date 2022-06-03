@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Paula Manese | Exercise 2 | Online Library
+    </title>
+
+        <!-----------------External CSS------------------------>
+        <link rel="stylesheet" href="style2.css">
+
+
+        <!-----------------Google Fonts------------------------>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-----------------Form--------------------------->
+    <form>
+        <br>
+        <br>
+        
+          <h1 class="header" id="header">Payment Method</h1>
+          <br>
+          <br>
+
+         <table>
+              <tr>   
+                   <td>
+                        <label for="name" class="label">Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" class="placeholder" id="name" name="name" placeholder="Please enter your name" required>
+                    </td>
+              </tr>
+              <tr>
+                    <td>
+                        <label for="address" class="label">Address:</label>
+                    </td>
+                    <td>
+                            <input type="text" class="placeholder" id="address" name="address" placeholder="Please enter your address" required>
+                    </td>
+              </tr>
+              <tr>
+                <td>
+                    <label for="email" class="label">Email:</label>
+                </td>
+                <td>
+                        <input type="text" class="placeholder" id="email" name="email" placeholder="Please enter your email address" required>
+                </td>
+          </tr>
+
+          <tr>
+            <td>
+                <label for="contact" class="label" >Contact Number:</label>
+            </td>
+            <td>
+                <input type="text" class="placeholder" id="number" name="number" placeholder="Please enter you contact details" required>
+            </td>
+        </tr>
+              <tr>
+                    <td>
+                        <label class="region" for="Region">Region:</label>
+                    </td>
+                    <td>
+                        <select class="region" id="region" name="region" required>
+                            <option  value="ncr">NCR</option>
+                            <option  value="regone">Region 1</option>
+                            <option  value="regtwo">Region 2</option>
+                            <option  value="regthree">Region 3</option>
+                            <option  value="regfour">Region 4</option>
+                            <option  value="regfive">Region 5</option>
+                        </select>
+                    </div>
+                    </td>
+              </tr>
+
+                    <td class="label">
+                        Select Payment Method:
+                    </td>
+                    
+                    <td>
+                    <input type="radio" id="mcard" name="pmtmethod" value="mcard">
+                    <label for="mcard" id="mcard">Master Card (With 5% discount)</label><br>
+                    </td>
+        
+            <tr>
+                <td></td>
+                   <td>
+                    <input type="radio" id="visa" name="pmtmethod" value="visa" >
+                    <label for="visa" id="visa">Visa (With 10% discount)</label><br>
+                    </td>
+            </tr>          
+
+            <tr>
+                <td></td>
+                   <td>
+                    <input type="radio" id="visa" name="pmtmethod" value="amex" class="">
+                    <label for="amex" id="visa">American Express</label><br>
+                    </td>
+            </tr>
+
+            <tr>
+                    <td></td>
+                    <td>
+                    <input type="radio" id="cod" name="pmtmethod" value="cod">
+                    <label for="cod" id="cod">Cash on Delivery</label><br>
+                    </td>
+            </tr>
+            
+    
+
+
+        <tr>
+            <td></td>
+
+            <tr>
+                <td></td>
+ 
+                    <td colspan="3">
+                    <button type="submit" value="submit" class="pmt">Place Order</button>
+                    </td>
+            </tr>
+
+            
+       </table>
+              <br>
+              <br>
+              <br>
+   </form>
+    
+</body>
+</html>

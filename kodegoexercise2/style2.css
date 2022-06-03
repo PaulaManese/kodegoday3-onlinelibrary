@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(19, 17, 17);
+    /* text-align: center; */
+
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-vector/smooth-white-wave-background_52683-55288.jpg?t=st=1654191533~exp=1654192133~hmac=ae8e7bdf765a28b9d0e7fab1677451f62c492e49f867b819da05f5f491bca628&w=2000);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+
+/* **************************************   Table   ************************************* */
+
+table {
+    margin: 0 auto;
+    border-spacing: 30px;
+    border: 0px;
+    padding: 15px 25px;
+    border-radius: 9px;
+    background: #e1adad;
+    box-shadow:  33px 33px 77px #614a4a,
+                -33px -33px 77px #ffffff;
+
+}
+
+h1 {
+	font-weight: 500;
+	font-size: 2rem;
+	margin: 0;
+	text-align: center;
+}
+
+.placeholder {
+
+    margin: 0 auto;
+    width: 50vh;
+    border-spacing: 30px;
+    border: 0px;
+    padding: 15px 25px;
+    border-radius: 27px;
+    background: #ffffff;
+    box-shadow: inset 37px 37px 79px #ededed,
+                inset -37px -37px 79px #ffffff;
+}
+
+.placeholder:hover {
+    background-color: #746C70;
+    color: rgb(248, 238, 238);
+  }
+
+.region {
+    margin: 0 auto;
+    border-spacing: 30px;
+    border: 0px;
+    padding: 15px 25px;
+    border-radius: 11px;
+    background: linear-gradient(145deg, #ffdbdb, #dcb9b9);
+    box-shadow:  5px 5px 10px #786464,
+                -5px -5px 10px #ffffff;
+    
+}
+
+
+.label {
+    margin: 0 auto;
+    border-spacing: 30px;
+    border: 0px;
+    padding: 15px 25px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    border-radius: 11px;
+    background: linear-gradient(145deg, #ffdbdb, #dcb9b9);
+    box-shadow:  5px 5px 10px #786464,
+                -5px -5px 10px #ffffff;
+    }
+
+    .label:hover {
+        background-color: #746C70;
+        color: rgb(248, 238, 238);
+      }
+
+
+
+      .pmt {
+        margin: 0 auto;
+        width: 100%;
+        border-spacing: 30px;
+        border: 0px;
+        padding: 15px 25px;
+        border-radius: 11px;
+        background: linear-gradient(145deg, #ffdbdb, #dcb9b9);
+        box-shadow:  5px 5px 10px #786464,
+                    -5px -5px 10px #ffffff;
+
+    }
+
+    .pmt:hover {
+        background-color: #746C70;
+        color: rgb(248, 238, 238);
+      }
+  
+ .header {
+    margin: 0 auto;
+    border-spacing: 30px;
+    border: 0px;
+    padding: 15px 25px;
+    border-radius: 11px;
+    background: linear-gradient(145deg, #ffffff, #e0d8d8);
+    box-shadow:  5px 5px 16px #b8b2b2,
+                -5px -5px 16px #ffffff;
+
+
+ }
