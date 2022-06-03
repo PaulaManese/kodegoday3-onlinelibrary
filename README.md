@@ -1,4 +1,19 @@
-# Kodegoday3-onlinelibrary
+# Kodegoday3 Online Library Project
+# ONLINE LIBRARY
+
+
+## This repository contains project code for kodego
+
+View demo: 
+
+```bash
+```
+
+## Technical Specifications:
+
+```
+HTML
+CSS
 
 <h1 align="center">Hi 👋, I'm PaulaManese</h1>
 <h3 align="center">I'm a FULL-STACK DEVELOPER STUDENT at KODEGO.</h3>
